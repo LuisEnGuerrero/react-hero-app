@@ -21,7 +21,6 @@ export const Navbar = () => {
             <div className="navbar-nav">
                 <NavLink className="nav-link" to="/marvel">Marvel</NavLink>
                 <NavLink className="nav-link" to="/dc">Dc</NavLink>
-                <NavLink className="nav-link" to="/hero">Hero</NavLink>
                 <NavLink className="nav-link" to="/search">Buscar</NavLink>
                 <button className="nav-link btn" onClick={ handleLogout }>Iniciar Sesión</button>
             </div>
