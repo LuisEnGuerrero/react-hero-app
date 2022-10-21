@@ -19,10 +19,10 @@ export const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-                <NavLink className="nav-link" to="/marvel">Marvel</NavLink>
-                <NavLink className="nav-link" to="/dc">Dc</NavLink>
-                <NavLink className="nav-link" to="/search">Buscar</NavLink>
-                <button className="nav-link btn" onClick={ handleLogout }>Iniciar Sesión</button>
+                <NavLink className="nav-link pe-4" to="/marvel">Marvel</NavLink>
+                <NavLink className="nav-link pe-4" to="/dc">Dc</NavLink>
+                <NavLink className="nav-link btn btn-outline-secondary mx-2 px-3" to="/search">Buscar</NavLink>
+                <button className="nav-link btn btn-outline-primary mx-2 mx-2" onClick={ handleLogout }>Iniciar Sesión</button>
             </div>
           </div>
         </div>
